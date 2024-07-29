@@ -9,6 +9,7 @@
     "start": "npm run dev",
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "postinstall": "cpy --flat ./node_modules/framework7-icons/fonts/*.* ./src/fonts/ && cpy --flat ./node_modules/material-icons/iconfont/*.* ./src/fonts/"
   },
   "browserslist": [
