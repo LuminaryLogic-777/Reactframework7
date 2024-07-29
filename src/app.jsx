@@ -25,8 +25,8 @@ import {
 } from 'framework7-react';
 
 
-import routes from '../js/routes';
-import store from '../js/store';
+import routes from './js/routes';
+import store from './js/store';
 
 const MyApp = () => {
   // Login screen demo data
@@ -35,7 +35,7 @@ const MyApp = () => {
 
   // Framework7 Parameters
   const f7params = {
-    name: 'f7', // App name
+    name: 'Best5', // App name
       theme: 'auto', // Automatic theme detection
 
 

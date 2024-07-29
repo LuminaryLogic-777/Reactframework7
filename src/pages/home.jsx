@@ -22,11 +22,11 @@ const HomePage = () => (
       <NavLeft>
         <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="left" />
       </NavLeft>
-      <NavTitle sliding>f7</NavTitle>
+      <NavTitle sliding>Best5</NavTitle>
       <NavRight>
         <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right" />
       </NavRight>
-      <NavTitleLarge>f7</NavTitleLarge>
+      <NavTitleLarge>Best5</NavTitleLarge>
     </Navbar>
     {/* Toolbar */}
     <Toolbar bottom>
