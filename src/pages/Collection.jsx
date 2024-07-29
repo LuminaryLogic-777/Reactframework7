@@ -18,10 +18,7 @@ const CollectionPage = () => {
   return (
     <Page>
       {/* Navbar with title and menu button */}
-      <Navbar>
-        <NavLeft>
-          <Link iconMd="material:menu" panelOpen="left" />
-        </NavLeft>
+      <Navbar backLink="Back">
         <NavTitle>Collection</NavTitle>
       </Navbar>
 
