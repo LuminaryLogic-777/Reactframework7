@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 const SRC_DIR = path.resolve(__dirname, './src');
 const PUBLIC_DIR = path.resolve(__dirname, './public');
-const BUILD_DIR = path.resolve(__dirname, './dist'); 
+const BUILD_DIR = path.resolve(__dirname, './dist'); // Ensure this matches 'dist'
 
 export default {
   plugins: [react()],
@@ -11,7 +11,7 @@ export default {
   base: '/',
   publicDir: PUBLIC_DIR,
   build: {
-    outDir: BUILD_DIR, 
+    outDir: BUILD_DIR, // Ensure this matches 'dist'
     assetsInlineLimit: 0,
     emptyOutDir: true,
     rollupOptions: {
@@ -25,6 +25,6 @@ export default {
   },
   server: {
     host: true,
-    port: 3000, 
+    port: 3000, // Default port if needed
   },
 };

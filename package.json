@@ -2,8 +2,7 @@
   "name": "f7",
   "private": true,
   "version": "1.0.0",
-  "description": "f7",
-  "repository": "",
+  "description": "f7 - A React project using Vite and Framework7",
   "license": "UNLICENSED",
   "scripts": {
     "start": "npm run dev",
@@ -13,7 +12,7 @@
     "postinstall": "cpy --flat ./node_modules/framework7-icons/fonts/*.* ./src/fonts/ && cpy --flat ./node_modules/material-icons/iconfont/*.* ./src/fonts/"
   },
   "browserslist": [
-    "IOS >= 15",
+    "iOS >= 15",
     "Safari >= 15",
     "last 5 Chrome versions",
     "last 5 Firefox versions"
