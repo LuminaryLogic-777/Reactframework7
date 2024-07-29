@@ -41,6 +41,7 @@ const HomePage = () => (
     <List strong inset dividersIos>
       <ListItem link="/about/" title="About"/>
       <ListItem link="/form/" title="Form"/>
+      <ListItem link="/collections/" title="Collection"/>
     </List>
 
     <BlockTitle>Modals</BlockTitle>
