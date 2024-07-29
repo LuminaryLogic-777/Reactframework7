@@ -1,0 +1,19 @@
+{
+  "cwd": "F:\\SONAI\\PERSONAL PROJECT\\f7create",
+  "type": [
+    "web",
+    "pwa"
+  ],
+  "name": "f7",
+  "framework": "react",
+  "template": "single-view",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
