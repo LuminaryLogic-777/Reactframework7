@@ -107,4 +107,52 @@
     padding: 0.5rem 1rem; /* Button padding */
     margin-top: 1rem; /* Margin on top */
   }
-  
+  /* CollectionPage.css */
+.grid-demo {
+  --f7-navbar-bg-color: #007aff; /* Optional: Customize Navbar color */
+}
+
+.grid {
+  display: grid;
+  gap: 16px; /* Adjust the gap between grid items */
+}
+
+.grid-item {
+  background: #e0e0e0; /* Light gray background for grid items */
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Define grid column classes */
+.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* Adjust grid column layout on medium screens */
+.medium-grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.medium-grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Optional: Add more responsive styles as needed */
