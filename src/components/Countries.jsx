@@ -33,17 +33,16 @@ const Countries = () => {
       <BlockTitle style={{ textAlign: 'center', color: 'black', marginBottom: '20px' }}>
         Choose a Map
       </BlockTitle>
-      <Block
+      <Block  
         style={{
-          width: '100%',
-          maxWidth: '600px',
+          width: '100%', 
           margin: '0 auto',
           padding: '20px',
-          backgroundColor: 'rgba(255, 255, 255, 0.9)',
+         
           borderRadius: '8px',
         }}
       >
-        <List>
+        <List className="country-list">
           {[
             { src: indiaLogo, alt: 'India', code: 'IN', path: '/city/' },
             { src: usaLogo, alt: 'USA', code: 'US', path: '/city/', grayscale: true },
@@ -61,16 +60,16 @@ const Countries = () => {
                   src={country.src}
                   alt={country.alt}
                   style={{
-                    width: '50px',
-                    height: '50px',
+                    width: '100px',
+                    height: '100px',
                     borderRadius: '50%',
                     marginRight: '10px',
                     filter: country.grayscale ? 'grayscale(100%)' : 'none',
                   }}
                 />
-                <span style={{ fontWeight: 'bold', color: '#333' }}>{country.alt}</span>
+               
               </div>
-              <Link style={{ fontSize: '14px', color: '#007aff' }}>{country.code}</Link>
+              <Link>{country.code}</Link>
             </ListItem>
           ))}
         </List>
