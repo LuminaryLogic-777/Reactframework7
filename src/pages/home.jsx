@@ -42,14 +42,14 @@ const HomePage = () => {
             minHeight: "100vh",
             fontFamily: "Arial, sans-serif",
             overflow: "hidden",
-            background: "linear-gradient(#f9f6ef, #f5e0c6)",
+            
           }}
         >
           <header
             className="header"
             style={{
               color: "white",
-              padding: "40px",
+              padding: "40px",          
               width: "100%",
               textAlign: "center",
               position: "relative",
@@ -69,7 +69,7 @@ const HomePage = () => {
                 transform: "translate(-50%, -50%)",
                 padding: "8px",
                 borderRadius: "50%",
-                backgroundColor: "white",
+           
               }}
             >
               <img
@@ -87,7 +87,7 @@ const HomePage = () => {
           </header>
 
           <section
-            className="content"
+            className="content Home-Nav"
             style={{
               flex: 1,
               padding: "20px",
@@ -95,6 +95,7 @@ const HomePage = () => {
               overflow: "auto",
               marginTop: "40px",
               width: "100%",
+              position:"relative",
             }}
           >
             <h1>
@@ -104,6 +105,8 @@ const HomePage = () => {
                   padding: "10px 20px",
                   fontSize: "12px",
                   fontWeight: "500",
+                  width:"100%",
+                  textAlign:"center",
                 }}
               >
                 Find the Best Businesses, Services, Professionals and Landmarks
@@ -122,6 +125,7 @@ const HomePage = () => {
                 zIndex: "10",
                 padding: "16px",
                 fontSize: "12px",
+                position:"relative",
               }}
             >
               Find addresses, phone numbers, reviews and ratings, photos, maps

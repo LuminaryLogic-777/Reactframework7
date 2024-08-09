@@ -32,11 +32,11 @@ export default () => {
           {cities.map((city) => (
             <ListItem
               key={city.name}
-              title={city.name}
               className="city-icon"
               link={`/collections/`} // Replace with appropriate route
             >
               <img src={city.image} alt={city.name} className="city-image" />
+              <div className="city-name">{city.name}</div>
             </ListItem>
           ))}
         </div>

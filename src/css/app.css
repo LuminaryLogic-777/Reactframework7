@@ -1,4 +1,6 @@
 /* Style for the main content wrapper to center elements */
+
+.page{background: #fff8f0;}
 .content-wrapper {
     padding: 15px;
     display: flex;
@@ -141,7 +143,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
+  padding: 2px;
 }
 
 .city-icon {
@@ -150,8 +152,8 @@
 }
 
 .city-image {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
@@ -160,7 +162,7 @@
   justify-content: center;
   margin: 20px 0;
   position: relative;
-  width: 80%;
+  width: 96%;
   margin: 0 auto;
 }
 
@@ -168,9 +170,9 @@
   list-style: none;
   width: 100%;
   padding: 10px 20px 10px 40px; 
-  border-radius: 20px;
+  border-radius: 40px;
   border: 1px solid #ccc;
-  background-color: rgb(238, 237, 237);
+  background: #e7dccc;
 }
 
 .search-icon {
@@ -182,14 +184,16 @@
   font-size: 16px;
   color: #ccc;
 }
+
+.search-bar .search-input .item-content.item-input:before{ background: transparent;}
+.search-bar .search-input .item-content.item-input:after{background: transparent;}
 .city-icon {
   list-style: none; /* Remove default list item markers */
 
 }
 
 .city-image {
-  width: 100px; /* Adjust size as needed */
-  height: 75px; /* Adjust size as needed */
+ 
   object-fit: cover;
 }
 
@@ -202,12 +206,12 @@
 .city-list-item {
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 96%;
   background-color: white;
   padding: 10px;
   margin: 5px 0;
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-weight: bold;
 }
 
@@ -224,16 +228,20 @@
   font-weight: bold;
 }
 
+ 
+ .list ul li{margin-left: auto; margin-right: auto; padding: 0; margin-bottom: 15PX; border-radius: 40px;}
+ .list ul li a{width:100%}
+ .list .item-inner{justify-content: left; }
+ .list .item-content .item-inner:before{right:28px;}
 
-@media screen and (max-width: 768px) {
-  .amajan-list .grid {
-      grid-template-columns: 1fr 1fr 1fr;
-  }
-}
+ .country-list li .item-inner:before{display: none !important;}
+ .country-list li .item-inner{display: block;}
+ .country-list ul{display: flex;}
 
-
-@media screen and (max-width: 480px) {
-  .amajan-list .grid {
-      grid-template-columns: 1fr;
-  }
-}
+ .country-list li .item-inner:before{display: none !important;}
+ .country-list li .item-inner a{ color: #000; font-weight: bold;  padding: 10px 0;}
+ /*navber-----------*/
+ .navbar-bg{background-color:#cf5f39;}
+ .Home-Nav .sliding{background: #fff8f0; }
+ .navbar-inner.sliding .title{text-align: center; width: 100%;}
+ .title-large-text{color:#fff;}
